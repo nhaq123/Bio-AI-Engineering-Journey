@@ -60,9 +60,3 @@ Week 4 — Files & Integration
 - DSA deck: pattern recognition for hashmaps, two pointers
 
 ---
-
-Next suggested tasks (pick one)
-- Implement a minimal, tested mutator (starter provided).
-- Implement codon table and translator.
-- Build FASTA parser to feed the pipeline.
-- Create issues/todo board for weekly tasks and set milestones
