@@ -1,0 +1,43 @@
+# ===========================
+# 1. PYTHON INTERNALS (Junk)
+# ===========================
+# Python creates these automatically to make code run faster. 
+# They are "compiled" files and should never be shared.
+__pycache__/
+*.pyc
+
+# ===========================
+# 2. VIRTUAL ENVIRONMENTS
+# ===========================
+# This is where your library files live (like pandas/numpy).
+# We never upload this folder. We only upload 'requirements.txt'.
+venv/
+.venv/
+env/
+
+# ===========================
+# 3. SECURITY (Crucial)
+# ===========================
+# Files that store API keys (like OpenAI keys) or passwords.
+# If you upload these, hackers can steal your credentials.
+.env
+.DS_Store
+
+# ===========================
+# 4. BIO-DATA & LARGE FILES
+# ===========================
+# GitHub has a file size limit (100MB). Bio-data is often huge.
+# Keep the code on GitHub, but keep the data on your laptop.
+
+# Ignore specific large file formats often used in Biology/AI
+*.fasta
+*.fastq
+*.csv
+*.zip
+*.tar.gz
+*.pkl
+*.h5
+
+# Ignore the specific data folder in your "Central-Dogma-Toolkit"
+# (Matches your folder structure)
+Month-01-Python-Foundation/02-Bio-Project/Central-Dogma-Toolkit/data/* does i wnat to cop pase exactly like this with sentence 
