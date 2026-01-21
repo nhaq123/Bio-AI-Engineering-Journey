@@ -1,7 +1,7 @@
 # 🧬 Bio-AI Engineering Portfolio
 
 > **Mission:** Bridging the gap between Biological Systems and Artificial Intelligence.  
-> **Author:** Noor  
+> **Author:** Noorul Haq M 
 > **Focus:** Full-Stack AI Engineering | Computational Biology | Python
 
 ---
