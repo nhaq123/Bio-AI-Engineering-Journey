@@ -1,0 +1,15 @@
+# --- Core AI & Math ---
+# The foundation of all Machine Learning
+numpy
+
+# --- Data Handling ---
+# Excel for Python (Tables & CSVs)
+pandas
+
+# --- Bio-Engineering ---
+# The industry standard for DNA/Protein analysis
+biopython
+
+# --- Tools ---
+# Jupyter Notebooks (Standard for AI experiments)
+jupyter
