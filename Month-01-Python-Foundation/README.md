@@ -1,68 +1,58 @@
 # Month 01: Python Foundation & The Central Dogma Toolkit 🧬🐍
 
-Focus: Core Python logic, data structures, and biological sequence manipulation.  
-Curriculum: Angela Yu (Days 1–25) + custom Bio‑AI engineering projects.  
-Status: In Progress
+**Focus:** Core Python Logic, Data Structures, and Biological Sequence Manipulation.  
+**Curriculum:** Angela Yu (Days 1–25) + Custom Bio-AI Engineering Projects.  
+**Status:** [In Progress]
 
 ---
 
-🎯 Mission  
-To move beyond "tutorial hell" by applying Python immediately to computational biology. Build a reusable library — The Central Dogma Toolkit — that lets you mutate, transcribe, and translate DNA sequences and ingest real-world FASTA data.
+## 🎯 The Mission
+To move beyond "tutorial hell" by applying Python syntax immediately to computational biology. The goal is not just to learn loops, but to build a reusable software library (`The Central Dogma Toolkit`) that mimics cellular processes.
+
+## 🛠 The Tech Stack
+* **Language:** Python 3.x
+* **Core Concepts:** Control Flow, OOP (Classes/Objects), File I/O, Error Handling.
+* **Bio-Logic:** DNA Replication, Transcription, Translation, Mutation Simulation.
+* **DSA Focus:** Arrays, Hashing (Dictionaries), Two Pointers.
 
 ---
 
-🛠 Tech Stack
-- Language: Python 3.x
-- Core concepts: Control flow, OOP, File I/O, Error handling
-- Bio-logic: DNA replication, transcription, translation, mutation simulation
-- DSA focus: Arrays, hashing (dictionaries), two pointers
+## 🧬 Project: The Central Dogma Toolkit
+A cumulative "Lego Strategy" build. Each week adds a new module to the library.
+
+| Module | File Name | Functionality | Bio-Link | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. The Mutator** | `mutator.py` | Randomly mutates DNA sequences. | Evolution & Genetic Drift | [ ] |
+| **2. The Translator** | `translator.py` | Converts DNA $\to$ mRNA $\to$ Protein. | Ribosomal Translation | [ ] |
+| **3. The Cell** | `cell.py` | OOP Class wrapping DNA state & behavior. | The Cell Membrane (Encapsulation) | [ ] |
+| **4. The Integrator** | `fasta_parser.py` | Reads raw `.fasta` files into the pipeline. | Real-world Data Ingestion | [ ] |
 
 ---
 
-🧬 Project: The Central Dogma Toolkit  
-Each week adds a module to the library.
+## 📅 Weekly Execution Log
 
-| Module | File | Functionality | Bio-Link | Status |
-|---|---:|---|---|---:|
-| The Mutator | src/mutator.py | Randomly mutates DNA sequences | Evolution & genetic drift | TODO |
-| The Translator | src/translator.py | Convert DNA → mRNA → Protein | Ribosomal translation | TODO |
-| The Cell | src/cell.py | OOP class wrapping DNA state & behavior | Encapsulation | TODO |
-| The Integrator | src/fasta_parser.py | Read `.fasta` files into the pipeline | Real-world data ingestion | TODO |
+### Week 1: Logic & Mutations
+- [ ] **Tech:** Variables, Lists, Randomization (Angela Yu Days 1-6).
+- [ ] **DSA:** Contains Duplicate, Valid Anagram (Arrays).
+- [ ] **Build:** `src/mutator.py` (Mutation Engine).
 
----
+### Week 2: Dictionaries & Translation
+- [ ] **Tech:** Dictionaries, Functions with Inputs/Outputs (Angela Yu Days 7-12).
+- [ ] **DSA:** Two Sum, Group Anagrams (Hashing).
+- [ ] **Build:** `src/translator.py` (Codon Lookup Engine).
 
-📅 Weekly Execution Log
+### Week 3: OOP & The Cell
+- [ ] **Tech:** Classes, Objects, Inheritance (Angela Yu Days 13-18).
+- [ ] **DSA:** Valid Palindrome (Two Pointers).
+- [ ] **Build:** `src/cell.py` (The Cell Class).
 
-Week 1 — Logic & Mutations
-- Tech: Variables, lists, randomization (Angela Yu Days 1–6)
-- DSA: Contains Duplicate, Valid Anagram (arrays)
-- Build: src/mutator.py (mutation engine)
-
-Week 2 — Dictionaries & Translation
-- Tech: Dictionaries, functions (Days 7–12)
-- DSA: Two Sum, Group Anagrams
-- Build: src/translator.py (codon lookup engine)
-
-Week 3 — OOP & The Cell
-- Tech: Classes, objects, inheritance (Days 13–18)
-- DSA: Valid Palindrome (two pointers)
-- Build: src/cell.py (the Cell class)
-
-Week 4 — Files & Integration
-- Tech: Files, CSV, pandas intro (Days 19–25)
-- DSA: Valid Parentheses (stack)
-- Build: src/fasta_parser.py (final integration)
+### Week 4: Files, Parsing & Integration
+- [ ] **Tech:** Files, CSV, Pandas Intro (Angela Yu Days 19-25).
+- [ ] **DSA:** Valid Parentheses (Stack).
+- [ ] **Build:** `src/fasta_parser.py` (Final Integration).
 
 ---
 
-🧠 Knowledge Base (Anki focus)
-- Syntax deck: enumerate, zip, list comprehensions
-- DSA deck: pattern recognition for hashmaps, two pointers
-
----
-
-Next suggested tasks (pick one)
-- Implement a minimal, tested mutator (starter provided).
-- Implement codon table and translator.
-- Build FASTA parser to feed the pipeline.
-- Create issues/todo board for weekly tasks and set milestones
+## 🧠 Knowledge Base (Anki Stats)
+* **Syntax Deck:** Focusing on `enumerate`, `zip`, list comprehensions.
+* **DSA Deck:** Pattern recognition for HashMaps and Two Pointers.
