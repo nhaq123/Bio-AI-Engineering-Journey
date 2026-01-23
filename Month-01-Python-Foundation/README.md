@@ -1,4 +1,4 @@
-# [Month 01: Python Foundation & The Central Dogma Toolkit 🧬🐍](./Month-01-Python-Foundation)
+# [Month 01: Python Foundation & The Central Dogma Toolkit 🧬🐍]
 
 **Focus:** Core Python Logic, Data Structures, and Biological Sequence Manipulation.  
 **Curriculum:** Angela Yu (Days 1–25) + Custom Bio-AI Engineering Projects.  
