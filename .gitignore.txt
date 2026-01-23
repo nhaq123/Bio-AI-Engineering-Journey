@@ -40,4 +40,5 @@ env/
 
 # Ignore the specific data folder in your "Central-Dogma-Toolkit"
 # (Matches your folder structure)
-Month-01-Python-Foundation/02-Bio-Project/Central-Dogma-Toolkit/data/* does i wnat to cop pase exactly like this with sentence 
+Month-01-Python-Foundation/02-Bio-Project/Central-Dogma-Toolkit/data/* 
+
