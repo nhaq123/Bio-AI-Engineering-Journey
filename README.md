@@ -21,7 +21,7 @@ My curriculum follows a "Lego Strategy"—every concept learned is immediately a
 
 | Timeline | Tech Focus | Bio-Application | Status |
 | :--- | :--- | :--- | :--- |
-| **Month 01** | Jan 2026 | **Python Foundation** | **The Central Dogma Toolkit** (DNA/RNA Logic) | 🟡 *In Progress* |
+| **Month 01** | feb  2026 | **Python Foundation** | **The Central Dogma Toolkit** (DNA/RNA Logic) | 🟡 *In Progress* |
 
 ---
 
@@ -48,7 +48,7 @@ My curriculum follows a "Lego Strategy"—every concept learned is immediately a
 ## 📈 Daily Progress Log
 *I document my daily learning and code commits here.*
 
-* **Jan 21, 2026:** Journey initialized. Repository structure created. Started Month 1 (Python Foundation).
+* **Feb 1 , 2026:** Journey initialized. Repository structure created. Started Month 1 (Python Foundation).
 
 ---
 
