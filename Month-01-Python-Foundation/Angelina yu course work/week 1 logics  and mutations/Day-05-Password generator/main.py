@@ -6,7 +6,14 @@ nr_symbols = input ("How many symbols would you like in your password\n")
 nr_numbers = input ("How many numbers would you like in your password\n")
 import random
 #easy level
-
+#password = ""
+#for i in range(0,int(nr_letters)):
+   # password += random.choice(letters)
+#for i in range(0,int(nr_symbols)):
+    #password += random.choice(symbols)
+#for i in range(0,int(nr_numbers)):
+    #password += random.choice(numbers)
+#print(password)
 #hard level
 password_list = []
 for i in range(0,int(nr_letters)):
@@ -16,5 +23,8 @@ for i in range(0,int(nr_symbols)):
 for i in range(0,int(nr_numbers)):
     password_list.append(random.choice(numbers))
 random.shuffle(password_list)
-print(password_list)
+password = ""
+for char in password_list:
+    password += char
+print("Your password is: " + password)
       
