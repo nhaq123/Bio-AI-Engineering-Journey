@@ -26,5 +26,10 @@ random.shuffle(password_list)
 password = ""
 for char in password_list:
     password += char
+<<<<<<< HEAD
 print(f"Your password is: {password}")
       
+=======
+print("Your password is: " + password)
+      
+>>>>>>> 8d522ca1cfc2e16205075529ad7100c5e1e38cd6
