@@ -23,9 +23,7 @@ for i in range(0,int(nr_symbols)):
 for i in range(0,int(nr_numbers)):
     password_list.append(random.choice(numbers))
 random.shuffle(password_list)
-password = ""
-for char in password_list:
-    password += char
+password = "".join(password_list)
 <<<<<<< HEAD
 print(f"Your password is: {password}")
       
