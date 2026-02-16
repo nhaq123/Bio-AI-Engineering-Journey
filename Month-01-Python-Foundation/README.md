@@ -29,7 +29,7 @@ A cumulative "Lego Strategy" build. Each week adds a new module to the library.
 
 ---
 
-## 📅 Weekly Execution Log
+##  📅 Weekly Execution Log
 
 ### Week 1: Logic & Mutations
 - [ ] **Tech:** Variables, Lists, Randomization (Angela Yu Days 1-6).
