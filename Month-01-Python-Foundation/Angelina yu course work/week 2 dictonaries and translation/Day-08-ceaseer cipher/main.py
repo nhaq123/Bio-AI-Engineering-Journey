@@ -5,7 +5,7 @@ letters = "abcdefghijklmnopqrstuvwxyz"
 
 
 
-def encrypt(msg, shift):
+def encrypt(msg, shift):                                                           
     encode_msg = ""
     for char in msg:  # Better to iterate directly over characters
         if char in letters:
@@ -44,5 +44,19 @@ while decide :
         decide = False
         print("Good bye")
 
-    
+
+#easy way to do both encrpt and decrypt in one function
+#def ceaser(msg, shift, direction):
+    #result_msg = ""
+    #for char in msg:
+        #if char in letters:
+        # position = letters.index(char)
+           # if direction == "encode":
+                #new_position = (position + shift) % 26
+            #elif direction == "decode":
+                #new_position = (position - shift) % 26
+            #result_msg += letters[new_position]
+        #else:
+            #result_msg += char
+    #print(f"The {direction}d text is {result_msg}")
 
