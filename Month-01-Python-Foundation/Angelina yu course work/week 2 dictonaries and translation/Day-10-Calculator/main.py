@@ -1,46 +1,53 @@
-month = int(input("Give the month number "))
-
-year = int(input("In Which year you want to find the days "))
-
-def leap_year(year):
-    if year % 4 == 0:
-        if year % 100 ==0:
-            if year % 400 ==0:
-                return True
-            else:
-                return False
-        else:
-            return True
-            
-    else:
-        return False
-    
 
 
-def month_in_days(month):
-    days = [31, 28,31, 30,31,30,31,30,31,30,31,30 ]
-    if month == 2 and leap_year(year) :
-        return 29
-    else:
-        return days[month - 1]
+
+def add (n1 , n2):
+   return n1 +n2
+
+def sub (n1, n2):
+    return n1-n2
+def multi(n1,n2):
+   return n1*n2
+def div(n1,n2):
+    return n1/n2
+
+
+operation = { "+" : add,
+"-" : sub,
+"*" : multi,
+"/" : div, }
+
+
+def The_recursion():
+    num1 = int(input("Enter your first number "))
+    should_continue =True
+    while should_continue:
+
         
-    
+        
+        num2 = int(input("Enter your next number"))
+        for choose in operation:
+         print(choose)
 
-output = month_in_days(month)
+        
+        
+        decison = input("Enter the symbol of the operation as given above ") 
 
-print(f"The month has {output} days")
+        calculation_direction = operation[decison]
+        
 
+        
+        
+        output = calculation_direction(num1 ,num2)
+        
+        print(f"The {decison} of {num1 , num2} is {output}")
+        continue_process = input("Type 'y' for continue or 'n' for exit" )
+        if continue_process == "y":
+            num1 = output
+        else:
+            should_continue = False
+            The_recursion()
 
+        
 
-
-
-
-    
-
-
-    
-
-
-    
-    
-    
+The_recursion ()
